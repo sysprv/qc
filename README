@@ -1,0 +1,15 @@
+Bash script to fetch Questionable Content comics
+
+
+	"Questionable Content (abbreviated QC) is a slice-of-life webcomic
+	written and drawn by Jeph Jacques."
+	- Wikipedia
+
+QC is available at http://questionablecontent.net/.
+
+This script requires: bash, perl, curl
+Works under Cygwin.
+
+The number of the most recently downloaded comic is saved in a file named
+"have" in the current directory. If this file does not exist, qc will
+start downloading from comic number 1.
