@@ -23,8 +23,6 @@ for (( i = $have + 1; i <= $site; i++ )); do
 	fi
 
 	echo $i > have
-
-	sleep 2
 done
 
 exit $ex
